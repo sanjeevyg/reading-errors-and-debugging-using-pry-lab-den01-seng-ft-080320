@@ -4,13 +4,13 @@ def generate_star_date
 end
 
 
-def state_log(star_date)
-  return "Captain's Log, star date #{star_date}."
+def state_log(generate_star_date)
+  "Captain's Log, star date #{star_date}."
 end
 binding.pry
 
 def engage
-  state = state_log(star_date)
+  state = state_log(generate_star_date)
   puts state
   date = generate_star_date
   date
