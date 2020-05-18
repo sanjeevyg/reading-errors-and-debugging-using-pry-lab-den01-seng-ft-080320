@@ -16,7 +16,6 @@ def engage
   date
 end
 
-binding.pry
 
 
 
