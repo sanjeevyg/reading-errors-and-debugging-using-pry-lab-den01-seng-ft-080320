@@ -14,6 +14,7 @@ def engage
   date = generate_star_date
   date
 end
+binding.pry
 
 
 
